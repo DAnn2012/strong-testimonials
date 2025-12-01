@@ -58,7 +58,7 @@ class Strong_Testimonials_Post_Editor {
 		<table class="options">
 			<tr>
 				<td colspan="2">
-					<p><?php esc_html_x( 'To add a photo or logo, use the Featured Image option.', 'post editor', 'strong-testimonials' ); ?></p>
+					<p><?php echo esc_html_x( 'To add a photo or logo, use the Featured Image option.', 'post editor', 'strong-testimonials' ); ?></p>
 				</td>
 			</tr>
 			<?php
